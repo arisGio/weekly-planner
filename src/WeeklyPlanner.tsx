@@ -1,6 +1,5 @@
 import { Document, Page, StyleSheet, Text, View } from "@react-pdf/renderer";
 
-// Create styles
 const styles = StyleSheet.create({
   page: {
     flexDirection: "row",
@@ -13,10 +12,9 @@ const styles = StyleSheet.create({
   },
 });
 
-// Create Document Component
 const WeeklyPlanner = () => (
   <Document>
-    <Page size="A4" style={styles.page}>
+    <Page size="A4" orientation="landscape" style={styles.page}>
       <View style={styles.section}>
         <Text>Section #1</Text>
       </View>
