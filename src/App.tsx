@@ -1,6 +1,6 @@
+import WeeklyPlanner from "@components/WeeklyPlanner/WeeklyPlanner";
 import { PDFViewer } from "@react-pdf/renderer";
-import WeeklyPlanner from "./components/WeeklyPlanner/WeeklyPlanner";
-import { documentConfig } from "./utils/config";
+import { documentConfig } from "@utils/config";
 
 const App = () => (
   <PDFViewer style={{ width: "100vw", height: "100vh" }}>

@@ -1,6 +1,6 @@
+import { styles } from "@components/WeeklyPlanner/WeeklyPlanner.styles";
+import type { WeeklyPlannerDocumentProps } from "@components/WeeklyPlanner/WeeklyPlanner.types";
 import { Document, Page, Text, View } from "@react-pdf/renderer";
-import { styles } from "./WeeklyPlanner.styles";
-import type { WeeklyPlannerDocumentProps } from "./WeeklyPlanner.types";
 
 const WeeklyPlanner = ({
   title,

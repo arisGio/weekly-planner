@@ -1,4 +1,4 @@
-import { getCreationDate, getModificationDate } from "./dates";
+import { getCreationDate, getModificationDate } from "@utils/dates";
 
 export const documentConfig = {
   title: "Weekly Planner",
